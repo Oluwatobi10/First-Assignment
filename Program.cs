@@ -14,10 +14,10 @@ namespace Assignment1
                 X1 = -b+sqrt(b^2-4ac)
                 X2 = -b-sqrt(b^2-4ac)
             */
-            Console.WriteLine("Quadratic Equation Calculator"); 
+            Console.WriteLine("Quadratic Equation Calculator"); // the inputs should be integers and not strings
             
             Console.WriteLine("Enter your first value"); //Prompts user for first value
-            string  a = Console.ReadLine(); //Gets the first value
+            string  a = Console.ReadLine(); //Gets the first value    
 
             Console.WriteLine("Enter your second value"); //Prompts user for second value
             string  b = Console.ReadLine(); // Gets the second value
@@ -46,6 +46,7 @@ namespace Assignment1
             Console.Write("Enter your value in Fahrenheit: ");//Prompts user for an input
 
             string num = Console.ReadLine(); //Gets the input from the user
+            //why using string... it should be double, float or interget
 
             int num1 = Convert.ToInt32(num); //Converts the input to an integer
 
